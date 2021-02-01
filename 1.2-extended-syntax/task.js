@@ -26,7 +26,7 @@ function getAverageMark(marks){
     if (sumResult === 0){
          return sumResult;
     };
-        return sumResult / marks.length;
+    return sumResult / marks.length;
 };
 
 
