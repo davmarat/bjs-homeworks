@@ -46,7 +46,7 @@ function getGreeting(name) {
     else if (name === undefined) {
       greetings = `Привет, мир! Меня зовут Аноним.`
     } else ( greetings = `Привет, мир! Меня зовут ${name}.`);
-    return greetings;
     console.log(greetings);
+    return greetings;
     };
      
