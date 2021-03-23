@@ -61,7 +61,7 @@ class FantasticBook extends Book {
 }
 
 class DetectiveBook extends Book {
-    constructor(name, releaseDate, pagesCount, author) {
+    constructor(author, name, releaseDate, pagesCount){
         super(author, name, releaseDate, pagesCount)
         this.type = 'detective'
     }
@@ -128,7 +128,7 @@ console.log(library.findBookBy("releaseDate", 1919).name);
 
 console.log(library.giveBookByName("12 мужчин"));
 
-twelveMens.state = 5;
+twelveMens.state = 31;
 twelveMens.fix();
 console.log(twelveMens.state);
 library.addBook(twelveMens);//Вопрос: почему не добавляется?
